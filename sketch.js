@@ -31,7 +31,7 @@ function draw() {
   if(keyDown(LEFT_ARROW)){
     updateHeight(-10,0);
     //add the animation of balloon [use balloonImage2]
-    ballon.addAnimation("balloonImg",balloonImage2)
+    balloon.addAnimation("balloonImg",balloonImage2)
   }
   else if(keyDown(RIGHT_ARROW)){
     updateHeight(10,0);
